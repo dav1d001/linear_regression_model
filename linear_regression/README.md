@@ -18,16 +18,4 @@ Shows that open, high, low, and rolling_avg_5d correlate above 0.99 with the tar
 2. Feature Scatter Plots (Open, Rolling Avg, Intraday Range, Log Volume vs Close)
 Visually confirms the near-perfect linear relationship between open and close, the strong trend signal from rolling_avg_5d, and the weak/noisy signal from log_volume — directly informing which features to prioritize in the model.
 
-**Repository Structure**
-linear_regression_model/
-│
-├── summative/
-│   ├── linear_regression/
-│   │   ├── multivariate.ipynb        ← Full notebook: EDA, training, evaluation
-│   ├── API/
-│   │   ├── prediction.py             ← FastAPI prediction & retraining endpoints
-│   │   ├── requirements.txt          ← Python dependencies
-│   ├── FlutterApp/                   ← Mobile app source code
-│
-├── README.md
 
