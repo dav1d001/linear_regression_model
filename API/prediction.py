@@ -118,6 +118,8 @@ class StockInput(BaseModel):
 
 
 class PredictionResponse(BaseModel):
+    model_config = {"protected_namespaces": ()}
+
     predicted_close_price: float
     currency             : str = "USD"
     model_used           : str
