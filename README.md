@@ -75,7 +75,6 @@ Visually confirms the near-perfect linear relationship between `open` and `close
 ```
 linear_regression_model/
 │
-├── summative/
 │   ├── linear_regression/
 │   │   ├── multivariate.ipynb        ← Full notebook: EDA, training, evaluation
 │   ├── API/
