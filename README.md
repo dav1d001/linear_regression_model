@@ -1,4 +1,4 @@
-# 📈 S&P 500 Stock Closing Price Prediction
+# S&P 500 Stock Closing Price Prediction
 
 ## Mission
 To empower retail investors and financial analysts with a data-driven model that predicts the daily closing price of S&P 500 stocks, enabling smarter, evidence-based investment decisions using historical trading signals. This project builds a regression model that predicts a stock's daily closing price from trading activity — open price, daily high, daily low, and volume — enriched with engineered financial indicators such as intraday volatility, daily return, and a 5-day rolling price average.
@@ -10,21 +10,21 @@ To empower retail investors and financial analysts with a data-driven model that
 
 ---
 
-## 🌐 Live API
+## Live API
 
 **Public Endpoint:** `https://stock-price-predictor-cetx.onrender.com`
 **Swagger UI:** `https://stock-price-predictor-cetx.onrender.com/docs`
 
-> ⚠️ The API is hosted on Render's free tier. If it has been inactive, the first request may take up to 50 seconds to wake up. Please wait and retry.
+> The API is hosted on Render's free tier. If it has been inactive, the first request may take up to 50 seconds to wake up. Please wait and retry.
 
 ---
 
-## 🎥 Video Demo
+## Video Demo
 
 **YouTube:** `https://youtu.be/your-video-link`
 ---
 
-## 📱 How to Run the Flutter App
+## How to Run the Flutter App
 
 ### Prerequisites
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) installed
@@ -60,7 +60,7 @@ flutter run
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 **1. Correlation Heatmap**
 Shows that `open`, `high`, `low`, and `rolling_avg_5d` correlate above 0.99 with the target `close` — confirming they are the strongest predictors. `log_volume` and `daily_return` show near-zero correlation, flagging them as weak standalone predictors.
@@ -70,7 +70,7 @@ Visually confirms the near-perfect linear relationship between `open` and `close
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 linear_regression_model/
@@ -90,7 +90,7 @@ linear_regression_model/
 
 ---
 
-## 🤖 Models Trained
+## Models Trained
 
 | Model | Description |
 |---|---|
