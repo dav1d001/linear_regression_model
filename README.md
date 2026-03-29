@@ -21,7 +21,7 @@ To empower retail investors and financial analysts with a data-driven model that
 
 ## Video Demo
 
-**YouTube:** `https://youtu.be/your-video-link`
+**YouTube:** `https://youtu.be/tG5hIau-5UM`
 ---
 
 ## How to Run the Flutter App
